@@ -1,0 +1,37 @@
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+/* ID Selector */
+#main-title {
+    color: darkgreen;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Class Selector */
+.expense-form {
+    background-color: #d9f7d9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Element Selector */
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* ID Selector */
+#expenses-section {
+    background-color: #fff3cd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
