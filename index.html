@@ -8,29 +8,176 @@
 </head>
 <body>
      <!-- Main Heading -->
-    <h1 id="main-title">My Budget Tracker.</h1>
+       
 
-    <p>
-        Welcome to my expense tracking application.
-    </p>
+    <header>
+        <h1>SpendWise Budget Tracker</h1>
+        <p class="subtitle">
+            Track your income and expenses easily and manage your daily budget.
+        </p>
+    </header>
+
+     <section class="image-section">
+        <img src="istockphoto-2202419565-612x612.jpg"
+             alt="Budget Tracker Illustration"
+             width="500">
+    </section>
          
-
-         <!-- Part 2 - The "Add Expense" section -->
+  
+        <!-- Part 2 - The "Add Expense" section -->
         <!-- Add Expense Section goes here -->
-    <section class="expense-form">
+   <section id=expense-form>
         <h2>Add Expense</h2>
-        <!-- Expense form will go here -->
-         <input type="text"  placeholder="Expense Name">
-         <input type="number" placeholder="Amount">
-         <input type="text"  placeholder="Category">
+
+
+        <!-- Inserting A Form -->
+
+        <form>
+
+            <label for="expense-name">Expense Name</label>
+            <input type="text"
+                   id="expense-name"
+                   placeholder="Enter expense name">
+
+            <label for="amount">Amount (KES)</label>
+            <input type="number"
+                   id="amount"
+                   placeholder="Enter amount">
+
+            <label for="category">Category</label>
+            <select id="category">
+
+                <option value="">Choose Category</option>
+                <option>Food</option>
+                <option>Transport</option>
+                <option>Entertainment</option>
+                <option>Shopping</option>
+                <option>Education</option>
+                <option>Health</option>
+
+            </select>
+
+            <label for="date">Expense Date</label>
+            <input type="date" id="date">
+
+            <button type="button">Add Expense</button>
+
+        </form>
 
     </section>
+      
 
     <section id="expenses-section">
-    <h2>Your Expenses.</h2>
+    <h2>Your Expenses</h2>
      <p class="placeholder">No expenses yet.</p>
    
     </section>
+
+
+    <!-- Expense Table -->
+    <section id="expenses">
+
+    <h2>SpendWise Expense Table</h2>
+
+
+    <!-- Inserting Table -->
+
+    <table>
+        <!-- table  header  -->
+    <thead>
+       <!-- First Row -->
+        <tr>
+        <!-- Table Head -->
+         <th>Name</th>
+         <th>Amount</th>
+         <th>Category</th>
+         <th>Date</th> 
+
+    </thead>
+
+    <tbody>
+         
+        </tr>
+         <!-- Second Row -->
+        <tr>
+            <td>Groceries</td>
+            <td>$45.00</td>
+            <td>Food</td>
+            <td>10th Sep, 2026</td>
+            
+        </tr> 
+
+          <!-- Third Row -->
+        <tr>
+            <td>Bus fare</td>
+            <td>$5.00</td>
+            <td>Transport</td>
+            <td>11th Sep, 2026</td>
+            
+        </tr> 
+
+          <!-- Fourth Row -->
+        <tr>
+            <td>Netflix</td>
+            <td>$15.99</td>
+            <td>Entertainment</td>
+            <td>12th Sep, 2026</td>
+           
+        </tr> 
+
+         <!-- Fifth Row -->
+         <tr>
+            <td>Rent</td>
+            <td>$199.99</td>
+            <td>Housing</td>
+            <td>13th Sep, 2026</td>
+           
+        </tr>
+        <tr>
+            <td>Utilities</td>
+            <td>$15.99</td>
+            <td>Internet</td>
+            <td>14th Sep, 2026</td>
+        </tr>
+    </tbody>
+        
+    </table>
+
+    </section>
+
+     <!-- Video -->
+    <section>
+
+        <h2>Budgeting Video</h2>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/HQzoZfc3GwQ"
+            title="Budgeting Video"
+            allowfullscreen>
+        </iframe>
+
+    </section>
+    <!-- How to Use -->
+<section id="instructions">
+
+    <details>
+        <summary>How to use this tracker</summary>
+
+        <p>
+            <ul>
+            <li>Enter the name of your expense, the amount you spent</li>
+            <li>select a category, and choose the date of the expense.</li>
+            <li>Click the "Add Expense" button to submit the information.</li>
+            </ul>
+        </p>
+
+    </details>
+
+</section>
     
+
+
 </body>
 </html>
