@@ -187,7 +187,7 @@ button {
     padding: 12px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 15px;
     background-color: #2E7D32;
     color: #FFFFFF;
     border: none;
@@ -238,7 +238,7 @@ table {
 /* Table Headers */
 th {
     font-family: "Poppins", sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     
     
 }
