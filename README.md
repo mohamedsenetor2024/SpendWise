@@ -261,8 +261,72 @@ SpendWise/
 
 ---
 
+# SpendWise Dashboard Shell
+
+A modern, responsive financial dashboard layout built using **CSS Grid** and **Flexbox** as the foundation for the SpendWise capstone project.
+
+## 🚀 Overview
+
+SpendWise is designed to give users a clean, organized view of their financial categories and information at a glance. This week's milestone focuses entirely on the visual layout, structural integrity, and responsive design using modern CSS techniques without heavy reliance on JavaScript or frameworks.
+
+---
+
+## ✨ Features & What Each Part Does
+
+### 1. Overall Page Layout (CSS Grid)
+* **What it does:** Organizes the main dashboard container into a structured grid layout (typically dividing space into a fixed/flexible sidebar and a main content area).
+* **Implementation:** Uses CSS Grid (`display: grid`) to handle the macro-layout of the page cleanly, avoiding outdated float or absolute positioning techniques.
+
+### 2. Component Structures (Flexbox)
+* **What it does:** Aligns and spaces internal elements within smaller components.
+* **Implementation:** Flexbox (`display: flex`) is used inside the **Header**, **Sidebar Navigation items**, and **Category Cards** to distribute items, handle vertical centering, and manage gaps dynamically.
+
+### 3. Financial Category Cards
+* **What it does:** Displays realistic static financial information across at least six core categories:
+  * Food
+  * Transport
+  * Rent
+  * Entertainment
+  * Savings
+  * Utilities
+
+### 4. Design System & Theming (CSS Custom Properties)
+* **What it does:** Centralizes colors and styling tokens on the `:root` selector for maintainability and consistency.
+* **Variables included:**
+  * `--brand-color`: Primary brand identity color.
+  * `--accent-color`: Highlight and action color.
+  * `--surface-color`: Card and container background backgrounds.
+  * `--text-primary`: Main headings and body text color.
+  * `--text-secondary`: Subtitles and muted text color.
+
+### 5. Responsive Design
+* **What it does:** Adapts the user interface smoothly across different device sizes.
+* **Implementation:** A media query at the `768px` breakpoint collapses the multi-column desktop layout into a clean, readable single-column view optimized for mobile devices and DevTools Device Toolbar simulation.
+
+### 6. Card Micro-Interactions
+* **What it does:** Enhances user experience by providing visual feedback when interacting with dashboard cards.
+* **Implementation:** Smooth transitions (`transition: transform 250ms ease, box-shadow 250ms ease`) apply subtle lifting effects and shadow changes on both `:hover` and keyboard `:focus` states.
+
+### 7. Stretch Goal: Dark Theme
+* **What it does:** Automatically switches color variables based on system preferences.
+* **Implementation:** Uses `@media (prefers-color-scheme: dark)` to override `:root` variables, providing an native dark mode experience.
+
+---
+
+## 📂 File Structure
+
+```text
+spendwise-dashboard/
+│
+├── index.html       # Main HTML markup containing the semantic dashboard structure
+├── style.css        # Stylesheet containing Grid, Flexbox, variables, and responsive queries
+└── README.md        # Project documentation
+
+
+
+
 ## Author
 
 **Mohamed Muhumed Rage**
 
-PLP Software Engineering – Week 3 Assignment
+PLP Software Engineering – Week 4 Assignment
