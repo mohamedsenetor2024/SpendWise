@@ -330,3 +330,160 @@ spendwise-dashboard/
 **Mohamed Muhumed Rage**
 
 PLP Software Engineering – Week 4 Assignment
+
+# SpendWise Budget Tracker
+## Week 5: Build the JavaScript Foundation for SpendWise
+
+### Project Overview
+SpendWise is a Budget Tracker application designed to help users manage their budgets, monitor expenses, and calculate their remaining balances.
+
+During Week 5, the project was enhanced by introducing JavaScript to transform the previously static dashboard into an application that can collect user input, process budgeting information, perform calculations, and display results in the browser console.
+
+### Objectives
+The main objectives of this week's exercise were to:
+
+- Set up and link JavaScript to the existing SpendWise project.
+- Understand JavaScript variables and data types.
+- Collect user input using JavaScript prompts.
+- Perform budget and expense calculations.
+- Create reusable JavaScript functions.
+- Display calculated results using the browser console.
+- Connect HTML form elements to JavaScript.
+
+### Technologies Used
+- HTML5 – Application structure.
+- CSS3 – Styling and dashboard layout.
+- JavaScript – Application logic and budget calculations.
+- Visual Studio Code – Code editor.
+- Google Chrome – Browser testing.
+- Git and GitHub – Version control and project hosting.
+
+### Project Structure
+
+```text
+SpendWise/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── istockphoto-2202419565-612x612.jpg
+```
+
+### Week 5 Implementation
+
+#### 1. Set Up JavaScript
+Created a JavaScript file named `script.js` and linked it to the existing HTML document to enable JavaScript functionality.
+
+#### 2. Store Application Data
+Used JavaScript variables to store important budgeting information, including:
+- `budgetExpenses` – Stores the user's total budget.
+- `expenses` – Stores the user's total expenses.
+- `remainingBudget` – Stores the calculated remaining balance.
+
+#### 3. Collect User Input
+Used the JavaScript `prompt()` function to collect the user's budget and total expenses.
+
+The HTML expense form also collects:
+- Expense name.
+- Expense amount.
+- Expense category.
+
+#### 4. Perform Budget Calculations
+Implemented mathematical operations to calculate the remaining budget by subtracting total expenses from the available budget.
+
+**Formula:**
+
+```javascript
+remainingBudget = budgetExpenses - expenses;
+```
+
+#### 5. Create Reusable Functions
+Created a JavaScript function called `addNewExpense()` to organize the expense-processing logic.
+
+The function collects expense details from the HTML form, updates the remaining budget, and displays the results.
+
+#### 6. Display Results
+Used `console.log()` to display clearly labeled budgeting information, including:
+
+- Total Budget.
+- Total Expenses.
+- Remaining Budget.
+- Expense Name.
+- Expense Amount.
+- Expense Category.
+- Updated Remaining Budget.
+
+#### 7. Connect HTML Form to JavaScript
+Used DOM methods such as:
+
+```javascript
+document.getElementById()
+document.querySelector()
+```
+
+Connected the Add Expense button to the JavaScript function using:
+
+```javascript
+addButton.addEventListener("click", addNewExpense);
+```
+
+### Sample Budget Calculation
+
+| Description | Amount |
+|---|---:|
+| Total Budget | $20,000 |
+| Total Expenses | $15,000 |
+| Remaining Balance | $5,000 |
+
+### Expected Console Output
+
+```text
+Total Budget: $ 20000
+Total Expenses: $ 15000
+Remaining Budget: $ 5000
+
+Expenses Name: Groceries
+Expenses Amount: $ 1000
+Expenses Category: Food
+Updated Remaining Budget: $ 4000
+```
+
+### Learning Outcomes
+
+By completing Week 5, I gained practical experience in:
+
+1. Declaring and using JavaScript variables.
+2. Understanding JavaScript data types.
+3. Collecting user input using `prompt()`.
+4. Converting input values using `Number()`.
+5. Performing mathematical calculations.
+6. Creating and calling JavaScript functions.
+7. Accessing HTML elements through the DOM.
+8. Using event listeners to respond to user interactions.
+9. Displaying application results using `console.log()`.
+10. Integrating JavaScript with an existing HTML and CSS project.
+
+### Future Improvements
+
+The next development steps for SpendWise include:
+
+- Dynamically adding expenses to the HTML expense table.
+- Displaying updated budget information on the dashboard.
+- Adding expense validation and error handling.
+- Storing expense records using browser local storage.
+- Developing interactive budget reports and analytics.
+
+### Conclusion
+
+Week 5 marked an important milestone in the development of SpendWise. By introducing JavaScript, the application moved beyond a static dashboard and gained the foundation for processing budgeting information and handling user interactions.
+
+This exercise strengthened my understanding of JavaScript fundamentals and prepared me for more advanced application development.
+
+---
+
+**Project:** SpendWise Budget Tracker  
+**Module:** Software Engineering  
+**Week:** 5 – JavaScript Foundation  
+**Developer:** Mohamed  
+**Status:** Week 5 Development Completed
