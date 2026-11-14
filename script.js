@@ -57,4 +57,4 @@ console.log("Updated Remaining Budget: $ " + remainingBudget);
 
 addButton.addEventListener("click", addNewExpense);
 
-             
+
