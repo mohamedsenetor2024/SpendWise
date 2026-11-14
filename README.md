@@ -370,26 +370,58 @@ SpendWise/
 └── istockphoto-2202419565-612x612.jpg
 ```
 
+
+<!-- //WEEK 5 -->
+
+# SpendWise Budget Tracker
+
+## Week 5: Build the JavaScript Foundation for SpendWise
+
 ### Week 5 Implementation
 
-#### 1. Set Up JavaScript
-Created a JavaScript file named `script.js` and linked it to the existing HTML document to enable JavaScript functionality.
+#### 1. Set Up and Link JavaScript
+
+Created an external JavaScript file named `script.js` and connected it to the existing `index.html` file.
+
+The following script tag was added immediately before the closing `</body>` tag:
+
+```html
+<script src="script.js"></script>
+```
+
+This enables the browser to load and execute the JavaScript code when the HTML document is opened.
 
 #### 2. Store Application Data
-Used JavaScript variables to store important budgeting information, including:
-- `budgetExpenses` – Stores the user's total budget.
+
+Used JavaScript variables to store important budgeting information:
+
+- `budgetExpenses` – Stores the user's total available budget.
 - `expenses` – Stores the user's total expenses.
-- `remainingBudget` – Stores the calculated remaining balance.
+- `remainingBudget` – Stores the calculated remaining budget.
+
+Used `let` to declare variables whose values may change during program execution.
 
 #### 3. Collect User Input
+
 Used the JavaScript `prompt()` function to collect the user's budget and total expenses.
 
+Example:
+
+```javascript
+let budgetExpenses = Number(prompt("Enter your budget expenses: "));
+let expenses = Number(prompt("Enter your expenses: "));
+```
+
+The `Number()` function converts the input values from strings into numbers, allowing mathematical calculations.
+
 The HTML expense form also collects:
+
 - Expense name.
 - Expense amount.
 - Expense category.
 
 #### 4. Perform Budget Calculations
+
 Implemented mathematical operations to calculate the remaining budget by subtracting total expenses from the available budget.
 
 **Formula:**
@@ -398,13 +430,26 @@ Implemented mathematical operations to calculate the remaining budget by subtrac
 remainingBudget = budgetExpenses - expenses;
 ```
 
+This calculation helps users determine how much money remains after expenses.
+
 #### 5. Create Reusable Functions
-Created a JavaScript function called `addNewExpense()` to organize the expense-processing logic.
 
-The function collects expense details from the HTML form, updates the remaining budget, and displays the results.
+Created a reusable JavaScript function called `addNewExpense()` to organize the expense-processing logic.
 
-#### 6. Display Results
-Used `console.log()` to display clearly labeled budgeting information, including:
+The function:
+
+- Collects expense details from the HTML form.
+- Processes the expense amount.
+- Updates the remaining budget.
+- Displays the updated budgeting information.
+
+Using functions makes the code reusable, organized, and easier to maintain.
+
+#### 6. Display Results Using Console Output
+
+Used `console.log()` to display clearly labeled budgeting information in the browser's developer console.
+
+The information includes:
 
 - Total Budget.
 - Total Expenses.
@@ -414,19 +459,34 @@ Used `console.log()` to display clearly labeled budgeting information, including
 - Expense Category.
 - Updated Remaining Budget.
 
-#### 7. Connect HTML Form to JavaScript
-Used DOM methods such as:
+This makes it easier to test and debug the application's JavaScript functionality.
+
+#### 7. Connect HTML Elements to JavaScript Using the DOM
+
+Used Document Object Model (DOM) methods to access and interact with HTML elements.
+
+Methods implemented:
 
 ```javascript
-document.getElementById()
-document.querySelector()
+document.getElementById();
+document.querySelector();
 ```
 
-Connected the Add Expense button to the JavaScript function using:
+These methods allow JavaScript to locate HTML elements such as input fields and buttons.
+
+#### 8. Implement Event Handling
+
+Connected the Add Expense button to the JavaScript function using the `addEventListener()` method.
+
+Example:
 
 ```javascript
 addButton.addEventListener("click", addNewExpense);
 ```
+
+This event listener detects when a user clicks the Add Expense button and executes the `addNewExpense()` function.
+
+It allows users to interact with the SpendWise application through the HTML interface.
 
 ### Sample Budget Calculation
 
@@ -449,7 +509,7 @@ Expenses Category: Food
 Updated Remaining Budget: $ 4000
 ```
 
-### Learning Outcomes
+### JavaScript Concepts Learned
 
 By completing Week 5, I gained practical experience in:
 
@@ -458,9 +518,9 @@ By completing Week 5, I gained practical experience in:
 3. Collecting user input using `prompt()`.
 4. Converting input values using `Number()`.
 5. Performing mathematical calculations.
-6. Creating and calling JavaScript functions.
+6. Creating and calling reusable functions.
 7. Accessing HTML elements through the DOM.
-8. Using event listeners to respond to user interactions.
+8. Implementing event listeners to respond to user interactions.
 9. Displaying application results using `console.log()`.
 10. Integrating JavaScript with an existing HTML and CSS project.
 
@@ -471,19 +531,23 @@ The next development steps for SpendWise include:
 - Dynamically adding expenses to the HTML expense table.
 - Displaying updated budget information on the dashboard.
 - Adding expense validation and error handling.
-- Storing expense records using browser local storage.
+- Storing expense records using browser Local Storage.
 - Developing interactive budget reports and analytics.
 
 ### Conclusion
 
 Week 5 marked an important milestone in the development of SpendWise. By introducing JavaScript, the application moved beyond a static dashboard and gained the foundation for processing budgeting information and handling user interactions.
 
-This exercise strengthened my understanding of JavaScript fundamentals and prepared me for more advanced application development.
+Through this implementation, I strengthened my understanding of JavaScript fundamentals, DOM manipulation, functions, variables, user input, and event handling.
+
+These concepts provide a strong foundation for developing more interactive and dynamic web applications.
 
 ---
 
-**Project:** SpendWise Budget Tracker  
-**Module:** Software Engineering  
-**Week:** 5 – JavaScript Foundation  
-**Developer:** Mohamed  
-**Status:** Week 5 Development Completed
+### Project Information
+
+- **Project:** SpendWise Budget Tracker
+- **Module:** Software Engineering
+- **Week:** 5 – JavaScript Foundation
+- **Developer:** Mohamed
+- **Status:** Week 5 Development Completed
