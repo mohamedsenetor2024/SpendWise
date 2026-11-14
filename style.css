@@ -439,6 +439,7 @@ tbody tr:hover {
 }
 
 /* Mobile Footer */
+
 @media (max-width: 600px) {
     .footer {
         grid-column: 1 / -1;
