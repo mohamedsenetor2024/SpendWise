@@ -551,3 +551,123 @@ These concepts provide a strong foundation for developing more interactive and d
 - **Week:** 5 – JavaScript Foundation
 - **Developer:** Mohamed
 - **Status:** Week 5 Development Completed
+
+# SpendWise Budget Tracker
+### Week 6 – Make SpendWise Interactive
+
+## 1. Project Overview
+
+SpendWise is a web-based budget tracking application designed to help users manage their budgets, record daily expenses, monitor spending, and track their remaining balance.
+
+In Week 6, the existing SpendWise project was enhanced with JavaScript functionality to make the application interactive. Users can set a budget, add expenses, delete expense records, and receive feedback based on their budgeting activities.
+
+This project demonstrates how JavaScript can be used to make decisions, manage multiple records, process data, manipulate the DOM, and respond to user interactions.
+
+## 2. Project Objectives
+
+The main objectives of this project are to:
+
+- Apply JavaScript conditional statements to make budgeting decisions.
+- Use arrays to store and manage multiple expense records.
+- Use loops to process stored expense information.
+- Manipulate the DOM to update dashboard information dynamically.
+- Implement event listeners to respond to user actions.
+- Connect JavaScript functions and webpage elements to create an interactive application.
+
+## 3. Features Implemented
+
+### 3.1 Budget Management
+- Enter and set a total budget.
+- Display the total budget on the dashboard.
+- Validate budget input before accepting it.
+
+### 3.2 Expense Management
+- Add new expenses using an input form.
+- Record expense names, amounts, categories, and dates.
+- Store multiple expenses in a JavaScript array.
+- Delete individual expense records.
+
+### 3.3 Budget Calculations
+- Calculate total expenses.
+- Calculate the remaining budget.
+- Recalculate dashboard information when expenses are added or deleted.
+
+### 3.4 Budget Feedback
+The application uses conditional statements to provide feedback based on the user's budget situation.
+
+Examples include:
+- Notification when the user is within budget.
+- Notification when the entire budget has been used.
+- Warning when expenses exceed the available budget.
+- Prompt to set a budget before adding expenses.
+
+### 3.5 Dynamic Dashboard
+JavaScript DOM manipulation is used to update dashboard values and expense records without manually refreshing the webpage.
+
+## 4. JavaScript Concepts Applied
+
+| Requirement | Implementation |
+|---|---|
+| Decision Making | `if`, `else if`, and `else` statements |
+| Multiple Records | Arrays and array methods |
+| Processing Data with Loops | `for` loop |
+| Dynamic Dashboard | DOM manipulation and `textContent` |
+| User Interactions | Event listeners and form submission |
+| Connecting Everything | Functions, calculations, events, and dashboard updates |
+
+## 5. Technologies Used
+
+- **HTML5** – Structures the application.
+- **CSS3** – Styles the dashboard and user interface.
+- **JavaScript** – Handles application logic, calculations, and user interactions.
+- **Visual Studio Code** – Code editor.
+- **Git and GitHub** – Version control and project hosting.
+
+## 6. Project Structure
+
+```text
+SpendWise/
+│
+├── index.html       # Application structure
+├── style.css        # Application styling
+├── script.js        # JavaScript functionality
+└── README.md        # Project documentation
+```
+
+## 7. How to Run the Application
+
+1. Clone or download the SpendWise project repository.
+2. Open the project folder in Visual Studio Code.
+3. Open the `index.html` file in your browser, or use the Live Server extension.
+4. Enter your total budget.
+5. Add expenses using the expense form.
+6. View your updated dashboard.
+7. Delete an expense when necessary.
+
+## 8. Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Using JavaScript to implement decision-making logic.
+- Managing multiple records using arrays.
+- Processing data using loops.
+- Selecting and updating HTML elements through DOM manipulation.
+- Handling user actions with event listeners.
+- Connecting JavaScript functions to create a functional web application.
+- Debugging and testing JavaScript functionality.
+
+## 9. Conclusion
+
+The Week 6 development of SpendWise demonstrates how JavaScript transforms a static webpage into an interactive web application.
+
+By implementing decision-making statements, arrays, loops, DOM manipulation, and event listeners, I enhanced the existing SpendWise Budget Tracker to support interactive budget and expense management.
+
+This project represents an important step in developing my practical JavaScript and frontend development skills.
+
+---
+
+**Project:** SpendWise Budget Tracker  
+**Module:** JavaScript Foundation – Week 6  
+**Assignment:** Make SpendWise Interactive  
+**Developer:** Mohamed  
+**Status:** Week 6 Implementation Completed
