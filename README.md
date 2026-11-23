@@ -671,3 +671,127 @@ This project represents an important step in developing my practical JavaScript 
 **Assignment:** Make SpendWise Interactive  
 **Developer:** Mohamed  
 **Status:** Week 6 Implementation Completed
+
+
+
+
+<!-- Week 7 -->
+# SpendWise – Budget Tracker
+
+## 1. Project Description
+
+SpendWise is a responsive and interactive budget tracking web application designed to help users manage their personal finances effectively.
+
+The application allows users to set a budget, record daily expenses, organize spending into different categories, monitor total expenses, and calculate their remaining budget.
+
+SpendWise aims to encourage better financial management by providing a simple and user-friendly interface for tracking income, expenses, and savings.
+
+## 2. Technologies Used
+
+The project was developed using the following technologies:
+
+- **HTML5** – Provides the structure of the application.
+- **CSS3** – Handles styling, layout, responsiveness, and visual presentation.
+- **JavaScript** – Implements application functionality, calculations, conditional statements, arrays, DOM manipulation, and event handling.
+- **Git & GitHub** – Used for version control and project hosting.
+- **Netlify** – Used for website hosting and continuous deployment.
+
+## 3. Project Features
+
+- Set and manage a personal budget.
+- Add and record expenses.
+- Organize expenses into different categories:
+  - Food
+  - Transport
+  - Rent
+  - Entertainment
+  - Other
+- Calculate total expenses automatically.
+- Monitor the remaining budget.
+- Display expense information dynamically.
+- Provide interactive feedback based on budgeting conditions.
+- Responsive user interface for different screen sizes.
+
+## 4. GitHub Repository Information
+
+The SpendWise project is maintained in a public GitHub repository.
+
+- **Repository Name:** SpendWise
+- **GitHub Username:** mohamedsenetor2024
+- **Repository URL:** https://github.com/mohamedsenetor2024/SpendWise
+
+GitHub was used to store the complete project source code, manage changes, and maintain version history throughout development.
+
+## 5. Live Website
+
+The SpendWise application has been successfully deployed and is accessible online through Netlify.
+
+**Live Website:** https://spendwiseexpense-tracker.netlify.app/
+
+## 6. Deployment Process Summary
+
+The application was successfully deployed using GitHub and Netlify.
+
+The deployment process involved the following steps:
+
+1. **Deployment Readiness:** Reviewed the project structure and ensured that all HTML, CSS, JavaScript, and other required files were properly organized.
+2. **GitHub Repository:** Created and configured a public GitHub repository and pushed the complete SpendWise project files.
+3. **Netlify Deployment:** Connected the GitHub repository to Netlify and deployed the application.
+4. **Custom Site Name:** Changed the default Netlify subdomain to `spendwiseexpense-tracker.netlify.app`.
+5. **Continuous Deployment:** Made a visible update to the application, committed and pushed the changes to GitHub, and verified that Netlify automatically deployed the latest version.
+6. **Final Testing:** Tested the live application to confirm that the website, styles, JavaScript functionality, and assets loaded correctly.
+
+## 7. Continuous Deployment Verification
+
+Continuous deployment was successfully tested.
+
+After making a visible change to the SpendWise application, the updated files were pushed to the connected GitHub repository.
+
+Netlify automatically detected the new commit, triggered a deployment, and published the updated version of the website.
+
+This confirmed that the GitHub and Netlify integration was working correctly.
+
+## 8. Challenges Encountered During Deployment
+
+During the development and deployment process, some challenges included:
+
+- Ensuring the project files were properly organized for deployment.
+- Configuring the GitHub repository correctly.
+- Connecting GitHub to Netlify.
+- Configuring the custom Netlify site name.
+- Verifying that CSS and JavaScript files loaded correctly on the live website.
+- Confirming that automatic deployments worked after pushing updates.
+
+These challenges provided practical experience in troubleshooting and deploying web applications.
+
+## 9. Lessons Learned
+
+Through this assignment, I gained practical knowledge and experience in:
+
+- Preparing web applications for production.
+- Creating and managing public GitHub repositories.
+- Using Git for version control.
+- Deploying websites using Netlify.
+- Connecting GitHub repositories to Netlify.
+- Configuring custom website domains and subdomains.
+- Understanding continuous deployment workflows.
+- Testing and verifying live websites.
+- Maintaining and updating deployed web applications.
+
+## 10. Conclusion
+
+Completing the SpendWise deployment assignment was an important milestone in my web development journey.
+
+I successfully transformed my local SpendWise project into a live web application accessible through the internet.
+
+This assignment strengthened my understanding of GitHub, Netlify, version control, web hosting, and continuous deployment.
+
+**SpendWise is now live and accessible online!**
+
+---
+
+**Project:** SpendWise – Budget Tracker  
+**Developer:** Mohamed  
+**Deployment Platform:** Netlify  
+**Repository Hosting:** GitHub  
+**Status:** Successfully Deployed 🚀
